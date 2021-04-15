@@ -1,0 +1,221 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9998898400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am able to navigate onto login page",
+            "match": {
+              "location": "StepDefinition.Login.I_am_able_to_navigate_onto_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-15T04:34:59.727Z",
+        "line": 31,
+        "name": "Test Login with Different Data",
+        "description": "",
+        "id": "login-feature;test-login-with-different-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 148366000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I enter the username as \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinition.Login.i_enter_the_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 119679400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter the password as \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinition.Login.i_enter_the_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5496497000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on Login button",
+            "match": {
+              "location": "StepDefinition.Login.i_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003c[Welcome Paul]\u003e but was:\u003c[LoginName]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat StepDefinition.Login.i_should_see_username_as(Login.java:53)\r\n\tat ✽.I should see the username as \"LoginName\"(file:///C:/Users/NidhiDhingra/eclipse-workspace/BDD/src/test/resources/Login/Login.feature:27)\r\n",
+              "duration": 53855900,
+              "status": "failed"
+            },
+            "line": 27,
+            "name": "I should see the username as \"LoginName\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LoginName\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinition.Login.i_should_see_username_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8434204700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am able to navigate onto login page",
+            "match": {
+              "location": "StepDefinition.Login.I_am_able_to_navigate_onto_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-15T04:35:15.717Z",
+        "line": 32,
+        "name": "Test Login with Different Data",
+        "description": "",
+        "id": "login-feature;test-login-with-different-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 279251300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I enter the username as \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinition.Login.i_enter_the_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 170543800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter the password as \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinition.Login.i_enter_the_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5517826000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on Login button",
+            "match": {
+              "location": "StepDefinition.Login.i_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003c[Welcome Paul]\u003e but was:\u003c[LoginName]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat StepDefinition.Login.i_should_see_username_as(Login.java:53)\r\n\tat ✽.I should see the username as \"LoginName\"(file:///C:/Users/NidhiDhingra/eclipse-workspace/BDD/src/test/resources/Login/Login.feature:27)\r\n",
+              "duration": 58842700,
+              "status": "failed"
+            },
+            "line": 27,
+            "name": "I should see the username as \"LoginName\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LoginName\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinition.Login.i_should_see_username_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "This feature includes scenario that would validate the following feature.\n1) Login as Admin \n2) Login as linda.anderson\n3) Login with Negative data",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Login/Login.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="30.752">
+    <testcase classname="Login feature" name="Test Login with Different Data" time="15.965">
+        <failure message="expected:&lt;[Welcome Paul]&gt; but was:&lt;[LoginName]&gt;" type="junit.framework.ComparisonFailure"><![CDATA[Given I am able to navigate onto login page.................................passed
+When I enter the username as "Admin"........................................passed
+And I enter the password as "admin123"......................................passed
+And I click on Login button.................................................passed
+Then I should see the username as "LoginName"...............................failed
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<[Welcome Paul]> but was:<[LoginName]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at StepDefinition.Login.i_should_see_username_as(Login.java:53)
+	at ✽.I should see the username as "LoginName"(file:///C:/Users/NidhiDhingra/eclipse-workspace/BDD/src/test/resources/Login/Login.feature:27)
+]]></failure>
+    </testcase>
+    <testcase classname="Login feature" name="Test Login with Different Data 2" time="14.467">
+        <failure message="expected:&lt;[Welcome Paul]&gt; but was:&lt;[LoginName]&gt;" type="junit.framework.ComparisonFailure"><![CDATA[Given I am able to navigate onto login page.................................passed
+When I enter the username as "Admin"........................................passed
+And I enter the password as "admin123"......................................passed
+And I click on Login button.................................................passed
+Then I should see the username as "LoginName"...............................failed
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<[Welcome Paul]> but was:<[LoginName]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at StepDefinition.Login.i_should_see_username_as(Login.java:53)
+	at ✽.I should see the username as "LoginName"(file:///C:/Users/NidhiDhingra/eclipse-workspace/BDD/src/test/resources/Login/Login.feature:27)
+]]></failure>
+    </testcase>
+</testsuite>
